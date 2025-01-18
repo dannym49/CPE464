@@ -81,5 +81,5 @@ void parse_ethernet_header(const unsigned char *packet){
 void parse_arp_header(const unsigned char *packet){
     struct ARPHeader *arp = (struct ARPHeader *)packet;
     printf("ARP Header:\n");
-    print
+    
 }
